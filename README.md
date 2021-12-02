@@ -1,4 +1,4 @@
-# Improved-Flower-Pollination-Algorithm-Based-Deployment-Optimization-of-Wireless-Sensor-Network
+# Improved Flower Pollination Algorithm Based Deployment Optimization of Wireless Sensor Network
 # 改进花朵授粉算法的无线传感器网络部署优化
 # DOI
 10.16182/j.issn1004731x.joss.19-0580
