@@ -1,0 +1,14 @@
+global N;%得到共有多少个结点
+load first_init_wolf.mat;
+load best_wolf1.mat %它的名字为best_indivi
+matrix_dis_first_best = zeros(N,N);%用于存两两之间的距离
+%算好距离
+for i=1:N
+    for j=1:N
+         dis_squ = (first_init_wolf(1,i)-best_indivi(1,j))^2 +...
+        (first_init_wolf(2,i)-best_indivi(2,j))^2;
+        matrix_dis_first_best(i,j) = dis_squ^0.5;
+    end
+end
+disp(matrix_dis_first_best);
+hu
